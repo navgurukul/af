@@ -1,3 +1,16 @@
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #333;
+    background: #c597a1;
+}
+
+.im-checkout-btn.btn--default {
+    background: #cd7d8f !important; //#803b4b
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(197,151,161,0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
 .im-checkout-btn {
     cursor: pointer;
     border-color: #c597a1;
@@ -18,9 +31,10 @@
 .im-checkout-btn:active,
 .im-checkout-btn.active,
 .open>.dropdown-toggle.im-checkout-btn {
-    border-color: #ed431f;
+    border-color: #803b4b;
     color: #fff;
-    background-color: #ee4b28;
+    background-color: #803b4b !important;
+
 }
 
 .im-checkout-btn:active,
@@ -168,7 +182,7 @@ img.team {
 body {
     font-family: Open Sans, 'Helvetica Neue', Arial, sans-serif;
     font-size: 15px;
-    color: #777;
+    color: #fbebef;
     line-height: 1.7;
 }
 
@@ -191,7 +205,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #eb3812;
+    color: #c597a1;
 }
 
 h1,
@@ -281,7 +295,7 @@ aside {
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-    color: #eb3812;
+    color: #c597a1;
 }
 
 .navbar-default .nav>li>a,
@@ -338,7 +352,7 @@ aside {
     }
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #eb3812;
+        color: #c597a1;
     }
     .navbar-default.affix .nav>li>a,
     .navbar-default.affix .nav>li>a:focus {
@@ -418,7 +432,7 @@ header .header-content .header-content-inner p {
 .section-heading {
     line-height: 1.4;
     font-size: 34px;
-    color: #f7e7ec;
+    color: #efd8dd;
 }
 
 img.paytm {
@@ -650,7 +664,7 @@ fieldset[disabled] .btn-green.active {
 .open>.dropdown-toggle.btn-primary {
     border-color: #ed431f;
     color: #fff;
-    background-color: #ee4b28;
+    background-color: #c597a1;
 }
 
 .btn-primary:active,
@@ -1525,7 +1539,7 @@ ul .tline-holder>li {
     padding-top: 12px;
     width: 40px;
     height: 40px;
-    background-color: #ee4b28;
+    background-color: #c597a1;
     border-radius: 100%;
     -moz-border-radius: 100%;
     -webkit-border-radius: 100%;
